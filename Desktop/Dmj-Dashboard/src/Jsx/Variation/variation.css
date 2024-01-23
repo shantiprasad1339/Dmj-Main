@@ -1,0 +1,52 @@
+.seo-form-bg{
+  background-color: rgb(246, 246, 247);
+  padding:20px;
+  height: fit-content;
+}
+
+
+.price-title {
+    font-weight: bold;
+  }
+  
+  .pro-fnt-num {
+    font-weight: 600;
+  }
+  
+  .sku-row {
+    position: relative;
+    left: 200px;
+  }
+  
+  .in-form-box {
+    border-radius: 5px;
+  }
+  
+  .sumbit-btn {
+    position: relative;
+    left: 350px;
+  }
+  .colr-span{
+    width: 50px;
+    height: 50px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .price-title {
+      font-weight: bold;
+    }
+  
+    .pro-fnt-num {
+      font-weight: 600;
+    }
+  
+    .sku-row {
+      position: relative;
+      left: 0;
+    }
+    .sumbit-btn {
+      position: relative;
+      left: 0;
+    }
+  
+  }
