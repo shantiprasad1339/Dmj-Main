@@ -8,9 +8,9 @@ import { multipleImages, singleImage } from "../../Js/uploadImg";
 import Loader from "../loader/Loader";
 
 const url = 'https://api.diwamjewels.com/DMJ/api/';
-const imgUrl = 'https://squid-app-2-7wbvi.ondigitalocean.app/'
+const imgUrl = 'https://images.diwamjewels.com/'
 const endPoint = 'v1/banner';
-const imageUrl = 'https://squid-app-2-7wbvi.ondigitalocean.app/';
+const imageUrl = 'https://images.diwamjewels.com/';
 const proImgEnd = 'v1/productImages/images/'
 const postImgEnd = 'v1/productImages/'
 

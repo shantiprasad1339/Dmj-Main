@@ -6,7 +6,8 @@ import axios from "axios";
 const url = 'https://squid-app-2-7wbvi.ondigitalocean.app/DMJ';
 const endPoint = 'images/pictures';
 const singleEndPoint = 'images';
-const uploadUrl = 'https://squid-app-2-7wbvi.ondigitalocean.app/uploads/'
+const uploadUrl = 'https://goldfish-app-qynu4.ondigitalocean.app/multiple/upload '
+const sigleImageUrl = 'https://goldfish-app-qynu4.ondigitalocean.app/upload/ '
 // const multiEnd = 'api/v1/upload/multi';
 
 const headers = {
@@ -26,10 +27,10 @@ async function multipleImages(imgArray) {
 
     try {
         const res = await axios.post(uploadUrl, formData, { headers })
-        console.log(res.data)
+        console.log(res.data.data)
 
         // Convert the imgRes array to a comma-separated string
-        const imgRes = res.data.map(item => item.path);
+        const imgRes = res.data.data.map(item => item.path);
         const imgResString = imgRes.join(',');
 
         return imgResString
@@ -49,10 +50,10 @@ async function singleImage(img) {
 
 
     try {
-        const res = await axios.post(uploadUrl, formData, { headers })
-        console.log(res.data)
+        const res = await axios.post(sigleImageUrl, formData, { headers })
+        console.log("singleImage",res.data)
 
-        return res.data[0].path
+        return res.data.data
     }
     catch (err) {
         console.log(err)

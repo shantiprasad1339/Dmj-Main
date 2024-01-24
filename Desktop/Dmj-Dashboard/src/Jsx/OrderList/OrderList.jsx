@@ -164,7 +164,7 @@ function OrderList() {
                   {orders &&
                     orders.map((item, index) => {
                       const url =
-                        "https://squid-app-2-7wbvi.ondigitalocean.app/";
+                        "https://images.diwamjewels.com/";
 
                       // console.log('orders', item.id);
                       const originalDate = new Date(item.created_at);

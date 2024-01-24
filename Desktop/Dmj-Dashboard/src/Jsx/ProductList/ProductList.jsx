@@ -10,7 +10,7 @@ import { Pagination } from "@mui/material";
 import { toast } from "react-toastify";
 // import { LocalConvenienceStoreOutlined } from "@mui/icons-material";
 
-const imgUrl = "https://squid-app-2-7wbvi.ondigitalocean.app/";
+const imgUrl = "https://images.diwamjewels.com/";
 
 const url2 = "https://diwamjewels.com";
 const url = "https://api.diwamjewels.com/DMJ";

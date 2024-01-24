@@ -10,7 +10,7 @@ import Loader from "../loader/Loader";
 const url = 'https://api.diwamjewels.com/DMJ/'
 const endPoint = 'api/v1/banner';
 const imageUrl = 'https://api.diwamjewels.com/DMJ/images/';
-const imgUrl = 'https://squid-app-2-7wbvi.ondigitalocean.app/';
+const imgUrl = 'https://images.diwamjewels.com/';
 
 
 const headers = {
@@ -99,6 +99,7 @@ function EditBanner() {
     }
     setIsLoading(false)
   };
+
 
 
 

@@ -116,8 +116,8 @@ function AddBanner() {
     const handleImage = async (e) => {
         setLoading(true)
         e.preventDefault();
-        // const res = await singleImage(image)
-        // console.log(res)
+        const res = await singleImage(image)
+        console.log(res)
         try {
             const res = await singleImage(image)
             const upRes = await axios.post(url + endPoint2, {
