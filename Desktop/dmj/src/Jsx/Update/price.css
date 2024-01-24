@@ -1,0 +1,41 @@
+.price-title {
+  font-weight: bold;
+}
+
+.pro-fnt-num {
+  font-weight: 600;
+}
+
+.sku-row {
+  position: relative;
+  left: 200px;
+}
+
+.in-form-box {
+  border-radius: 5px;
+}
+
+.sumbit-btn {
+  position: relative;
+  left: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+  .price-title {
+    font-weight: bold;
+  }
+
+  .pro-fnt-num {
+    font-weight: 600;
+  }
+
+  .sku-row {
+    position: relative;
+    left: 0;
+  }
+  .sumbit-btn {
+    position: relative;
+    left: 0;
+  }
+
+}

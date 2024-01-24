@@ -1,0 +1,274 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+.form-horizontal {
+  max-width: 500px;
+  width: 100%;
+
+  margin: auto;
+  background-color: white;
+  color: black;
+}
+
+.image-input {
+  margin-bottom: 10px;
+  color: rgb(23, 46, 46);
+}
+
+.singleImage {
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  padding: 5px;
+
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+
+  margin-top: 15px;
+}
+
+.multiImage {
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  padding: 5px;
+
+  max-width: 150px;
+  width: 100%;
+  height: 150px;
+
+  margin-top: 15px;
+  /* margin-left: 10px; */
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.add-pro-btn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  background-color: rgb(1, 175, 255);
+  color: white;
+  border: none;
+}
+
+/* .pro-fnt-num {
+  text-align: end;
+} */
+.listing-tp-box {
+  width: 100%;
+  max-width: 300px !important;
+}
+
+.pro-btn-add,.pro-btn-add-1 {
+  position: absolute;
+  right: 20px;
+  top: -40px;
+
+}
+
+
+.pro-btn-add-1{
+  position: absolute;
+
+  right: 50px;
+  top: 40px;
+
+}
+
+.pro-btn-add-1 .up-img-btn{
+  cursor: pointer;
+}
+
+
+.pro-tab-item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.btn{
+  background-color: rgb(44,108,252);
+  color: white;
+}
+.tab-item {
+  /* background-color:rgb(0, 217, 255); */
+  border-left: solid 2px rgb(0, 217, 255);
+  border-right: solid 2px rgb(0, 217, 255);
+  border-bottom: solid 2px rgb(0, 217, 255);
+  /* color:white; */
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer !important;
+
+}
+
+/* .tab-space{
+  margin-left:15px;
+} */
+
+.up-img-btn-box {
+  text-align: center;
+}
+
+.up-img-btn {
+  background-color: rgb(44,108,252);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.up-img-btn{
+  top: 10px;
+}
+
+.seo-btn{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.seo-submit-btn{
+  margin: auto;
+}
+
+.up-img-btn-1 {
+  background-color: rgb(0, 217, 255);
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  width: 20%;
+
+}
+
+.in-form-box {
+  border-radius: 0px;
+  position: relative;
+}
+
+.in-form-box-1 {
+  position: relative;
+  left: -2px;
+  bottom: 37px;
+  width: 40px;
+  height: 35px;
+  border: none;
+  border-radius: 0px;
+  padding-right: 20px;
+}
+
+
+
+.sel-st-vw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ql-toolbar.ql-snow {
+  background-color: rgb(231, 231, 231);
+}
+
+.ql-editor {
+  height: 20vh !important
+}
+
+@media (max-width: 425px) {
+  .pro-btn-add-1 {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+}
+  .up-img-btn {
+    background-color: rgb(0, 217, 255);
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+    margin-top: 43px;
+  }
+
+  .tab-item {
+    /* background-color:rgb(0, 217, 255); */
+    border-left: solid 2px rgb(0, 217, 255);
+    border-right: solid 2px rgb(0, 217, 255);
+    border-bottom: solid 2px rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer
+  }
+
+  /* .tab-space{
+    margin-left:10px;
+  } */
+  .pro-btn-add {
+    left: 0 !important;
+    margin-top: 0px;
+  }
+
+  .up-img-btn-1 {
+    background-color: rgb(0, 217, 255);
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+
+  }
+
+  .pro-fnt-num {
+    text-align: left;
+  }
+}
